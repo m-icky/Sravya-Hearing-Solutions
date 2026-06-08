@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="theme-color" content="#0A3B85" />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="apple-touch-icon" href="logo.png" />
+
+  <!-- Primary SEO -->
+  <title>Sravya Hearing Solutions | Hearing Aid Clinic in Thrissur Kerala</title>
+  <meta name="description" content="Sravya Hearing Solutions offers professional hearing tests, hearing aid fitting, hearing aid trials, tinnitus management, speech therapy support, and lifetime hearing care services in Thrissur, Kerala." />
+  <meta name="keywords" content="hearing aid clinic thrissur, hearing test kerala, audiologist thrissur, digital hearing aids, hearing aid fitting, hearing solutions kerala, hearing screening, tinnitus management" />
+  <link rel="canonical" href="https://sravyahearing.com" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Sravya Hearing Solutions" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sravyahearing.com" />
+  <meta property="og:title" content="Sravya Hearing Solutions | Hearing Aid Clinic in Thrissur Kerala" />
+  <meta property="og:description" content="Professional hearing assessments, advanced hearing aids, personalized fittings, and lifelong support. Serving Thrissur, Kerala." />
+  <meta property="og:image" content="https://sravyahearing.com/logo.png" />
+  <meta property="og:site_name" content="Sravya Hearing Solutions" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sravya Hearing Solutions | Hearing Aid Clinic in Thrissur Kerala" />
+  <meta name="twitter:description" content="Professional hearing assessments, advanced hearing aids, personalized fittings, and lifelong support in Thrissur, Kerala." />
+  <meta name="twitter:image" content="https://sravyahearing.com/logo.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/TextPlugin.min.js" defer></script>
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["MedicalClinic", "LocalBusiness"],
+    "name": "Sravya Hearing Solutions",
+    "url": "https://sravyahearing.com",
+    "logo": "https://sravyahearing.com/logo.png",
+    "telephone": "+918174097409",
+    "email": "sales@sravyahearing.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Thankulam Kottaram Road, Near Thankulam Temple, P.O. Pooppathy",
+      "addressLocality": "Thrissur",
+      "addressRegion": "Kerala",
+      "postalCode": "680733",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "10.5276",
+      "longitude": "76.2144"
+    },
+    "openingHours": ["Mo-Sa 09:00-18:00"],
+    "areaServed": ["Thrissur", "Kerala", "India"],
+    "medicalSpecialty": "Audiology",
+    "description": "Professional hearing assessments, advanced hearing aids, personalized fittings, and lifelong support in Thrissur, Kerala.",
+    "priceRange": "$$",
+    "sameAs": ["https://wa.me/918174097409"]
+  }
+  </script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-outer" id="cursorOuter"></div>
+  <div class="cursor-inner" id="cursorInner"></div>
+
+  <!-- Page Loader -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-content">
+      <img src="logo.png" alt="Sravya Hearing Solutions" class="loader-logo" />
+      <div class="loader-bar"><div class="loader-progress" id="loaderProgress"></div></div>
+      <p class="loader-text">Loading your experience...</p>
+    </div>
+  </div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="Sravya Hearing Solutions Home">
+        <img src="logo.png" alt="Sravya Hearing Solutions Logo" class="nav-logo-img" loading="lazy" />
+      </a>
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#why-us" class="nav-link">Why Choose Us</a></li>
+        <li><a href="#process" class="nav-link">Process</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="tel:+918174097409" class="nav-cta btn-magnetic" aria-label="Book Consultation">Book Consultation</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <ul role="list">
+      <li><a href="#home" class="mobile-link">Home</a></li>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#services" class="mobile-link">Services</a></li>
+      <li><a href="#why-us" class="mobile-link">Why Choose Us</a></li>
+      <li><a href="#process" class="mobile-link">Process</a></li>
+      <li><a href="#testimonials" class="mobile-link">Testimonials</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+      <li><a href="tel:+918174097409" class="mobile-cta">Book Consultation</a></li>
+    </ul>
+  </div>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home" aria-label="Hero section">
+    <!-- Background particles canvas -->
+    <canvas id="heroCanvas" aria-hidden="true"></canvas>
+    <!-- Floating decorative elements -->
+    <div class="hero-bg-rings" aria-hidden="true">
+      <div class="ring ring-1"></div>
+      <div class="ring ring-2"></div>
+      <div class="ring ring-3"></div>
+    </div>
+
+    <div class="hero-container">
+      <!-- Left Content -->
+      <div class="hero-content">
+        <div class="hero-label" data-reveal>
+          <span class="label-dot"></span>
+          Trusted Hearing Care in Kerala
+        </div>
+        <h1 class="hero-title" data-reveal>
+          Hear Life<br/>
+          <span class="title-accent">Clearly Again.</span>
+        </h1>
+        <p class="hero-subtitle" data-reveal>
+          Personalized Hearing Solutions<br/>Designed Around You.
+        </p>
+        <p class="hero-desc" data-reveal>
+          Professional hearing assessments, advanced hearing aids, personalized fittings, and lifelong support — helping you reconnect with every sound that matters.
+        </p>
+        <div class="hero-actions" data-reveal>
+          <a href="tel:+918174097409" class="btn-primary btn-magnetic" aria-label="Book a Consultation">
+            <span>Book Consultation</span>
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="hero-trust" data-reveal>
+          <div class="trust-item">
+            <i class="fa-solid fa-shield-check" aria-hidden="true"></i>
+            <span>Certified Specialists</span>
+          </div>
+          <div class="trust-item">
+            <i class="fa-solid fa-star" aria-hidden="true"></i>
+            <span>5★ Patient Rated</span>
+          </div>
+          <div class="trust-item">
+            <i class="fa-solid fa-heart-pulse" aria-hidden="true"></i>
+            <span>Lifetime Support</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Visual -->
+      <div class="hero-visual" aria-hidden="true">
+        <div class="vis-container">
+          <!-- Central ear icon -->
+          <div class="vis-center">
+            <div class="vis-icon-wrap">
+              <i class="fa-solid fa-ear-listen vis-ear-icon"></i>
+            </div>
+            <!-- Rotating rings -->
+            <div class="vis-ring vis-ring-a"></div>
+            <div class="vis-ring vis-ring-b"></div>
+            <div class="vis-ring vis-ring-c"></div>
+          </div>
+          <!-- Sound wave bars -->
+          <div class="soundwave-container">
+            <div class="soundwave" id="heroSoundwave">
+              <span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+          <!-- Floating info cards -->
+          <div class="float-card float-card-1">
+            <i class="fa-solid fa-check-circle"></i>
+            <span>Free Consultation</span>
+          </div>
+          <div class="float-card float-card-2">
+            <i class="fa-solid fa-headphones"></i>
+            <span>15+ Brands</span>
+          </div>
+          <div class="float-card float-card-3">
+            <i class="fa-solid fa-users"></i>
+            <span>5000+ Patients</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <div class="scroll-line"></div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <!-- ===== STATS SECTION ===== -->
+  <section class="stats-section" aria-label="Statistics">
+    <div class="stats-container">
+      <div class="stat-card" data-count="5000" data-suffix="+" aria-label="5000 plus happy patients">
+        <div class="stat-number"><span class="counter">0</span><span class="stat-suffix">+</span></div>
+        <div class="stat-label">Happy Patients</div>
+        <div class="stat-bar"></div>
+      </div>
+      <div class="stat-card" data-count="15" data-suffix="+" aria-label="15 plus leading brands">
+        <div class="stat-number"><span class="counter">0</span><span class="stat-suffix">+</span></div>
+        <div class="stat-label">Leading Brands</div>
+        <div class="stat-bar"></div>
+      </div>
+      <div class="stat-card" data-count="10" data-suffix="+" aria-label="10 plus years experience">
+        <div class="stat-number"><span class="counter">0</span><span class="stat-suffix">+</span></div>
+        <div class="stat-label">Years Experience</div>
+        <div class="stat-bar"></div>
+      </div>
+      <div class="stat-card" data-count="100" data-suffix="%" aria-label="100 percent personalized care">
+        <div class="stat-number"><span class="counter">0</span><span class="stat-suffix">%</span></div>
+        <div class="stat-label">Personalized Care</div>
+        <div class="stat-bar"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about-section" id="about" aria-label="About Sravya Hearing Solutions">
+    <div class="about-container">
+      <!-- Left Image -->
+      <div class="about-image-wrap" data-reveal-left>
+        <div class="about-img-frame">
+          <img
+            src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=700&auto=format&fit=crop&q=80"
+            alt="Audiologist conducting hearing consultation at Sravya Hearing Solutions"
+            class="about-img"
+            loading="lazy"
+            width="600" height="700"
+          />
+          <div class="about-img-badge">
+            <i class="fa-solid fa-award" aria-hidden="true"></i>
+            <div>
+              <strong>Certified</strong>
+              <span>Audiologists</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-accent-shape" aria-hidden="true"></div>
+      </div>
+
+      <!-- Right Content -->
+      <div class="about-content" data-reveal-right>
+        <div class="section-label">Our Story</div>
+        <h2 class="section-title">About Sravya<br/><span class="accent">Hearing Solutions</span></h2>
+        <p class="about-text">
+          At Sravya Hearing Solutions, we believe better hearing transforms lives. Our mission is to provide accurate hearing assessments, personalized recommendations, advanced hearing aid technology, and lifelong support in a comfortable, patient-focused environment.
+        </p>
+        <p class="about-text">
+          Located in Thrissur, Kerala, we serve patients across the region with compassion, expertise, and the very best in modern audiological care. Every patient who walks through our doors receives our complete attention and a solution built entirely around their unique needs.
+        </p>
+
+        <!-- Value Pillars -->
+        <div class="value-pillars">
+          <div class="pillar-card" tabindex="0">
+            <div class="pillar-icon"><i class="fa-solid fa-heart" aria-hidden="true"></i></div>
+            <h3>Patient First</h3>
+            <p>Every decision we make starts and ends with your wellbeing and comfort.</p>
+          </div>
+          <div class="pillar-card" tabindex="0">
+            <div class="pillar-icon"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+            <h3>Advanced Technology</h3>
+            <p>We use the latest audiological equipment and digital fitting software.</p>
+          </div>
+          <div class="pillar-card" tabindex="0">
+            <div class="pillar-icon"><i class="fa-solid fa-handshake" aria-hidden="true"></i></div>
+            <h3>Lifetime Support</h3>
+            <p>Our care doesn't end at the fitting — we're with you every step of the way.</p>
+          </div>
+        </div>
+
+        <a href="#services" class="btn-primary btn-magnetic" style="display:inline-flex;margin-top:2rem;align-self:flex-start;">
+          <span>Learn More About Us</span>
+          <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES SECTION ===== -->
+  <section class="services-section" id="services" aria-label="Our Services">
+    <div class="services-container">
+      <div class="section-header" data-reveal>
+        <div class="section-label">What We Offer</div>
+        <h2 class="section-title">Comprehensive Hearing<br/><span class="accent">Care Services</span></h2>
+        <p class="section-subtitle">From your first evaluation to lifelong support, we provide complete audiological care under one roof.</p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card" tabindex="0" aria-label="Hearing Evaluation service">
+          <div class="service-icon-wrap"><i class="fa-solid fa-stethoscope" aria-hidden="true"></i></div>
+          <h3>Hearing Evaluation</h3>
+          <p>Comprehensive audiological assessment to precisely measure your hearing across all frequencies.</p>
+          <div class="service-hover-line" aria-hidden="true"></div>
+        </article>
+        <article class="service-card" tabindex="0" aria-label="Hearing Aid Trial service">
+          <div class="service-icon-wrap"><i class="fa-solid fa-headphones" aria-hidden="true"></i></div>
+          <h3>Hearing Aid Trial</h3>
+          <p>Try before you buy. Experience hearing aids in your real daily environment before committing.</p>
+          <div class="service-hover-line" aria-hidden="true"></div>
+        </article>
+        <article class="service-card" tabindex="0" aria-label="Digital Hearing Aid Fitting service">
+          <div class="service-icon-wrap"><i class="fa-solid fa-sliders" aria-hidden="true"></i></div>
+          <h3>Digital Hearing Aid Fitting</h3>
+          <p>Precision digital programming matched to your exact audiogram for natural, comfortable sound.</p>
+          <div class="service-hover-line" aria-hidden="true"></div>
+        </article>
+        <article class="service-card" tabindex="0" aria-label="Hearing Aid Programming service">
+          <div class="service-icon-wrap"><i class="fa-solid fa-microchip" aria-hidden="true"></i></div>
+          <h3>Hearing Aid Programming</h3>
+          <p>Advanced software-based fine-tuning to optimize your device for every listening environment.</p>
+          <div class="service-hover-line" aria-hidden="true"></div>
+        </article>
+        <article class="service-card" tabindex="0" aria-label="Hearing Aid Repairs service">
+          <div class="service-icon-wrap"><i class="fa-solid fa-wrench" aria-hidden="true"></i></div>
+          <h3>Hearing Aid Repairs</h3>
+          <p>Expert repair and maintenance services to keep your hearing aids performing at their best.</p>
+          <div class="service-hover-line" aria-hidden="true"></div>
+        </article>
+        <article class="service-card" tabindex="0" aria-label="Tinnitus Management service">
+          <div class="service-icon-wrap"><i class="fa-solid fa-brain" aria-hidden="true"></i></div>
+          <h3>Tinnitus Management</h3>
+          <p>Specialized care and therapeutic strategies to help manage and reduce tinnitus symptoms.</p>
+          <div class="service-hover-line" aria-hidden="true"></div>
+        </article>
+        <article class="service-card" tabindex="0" aria-label="Hearing Screening service">
+          <div class="service-icon-wrap"><i class="fa-solid fa-clipboard-check" aria-hidden="true"></i></div>
+          <h3>Hearing Screening</h3>
+          <p>Quick, accurate hearing screenings for all ages to detect hearing concerns early.</p>
+          <div class="service-hover-line" aria-hidden="true"></div>
+        </article>
+        <article class="service-card" tabindex="0" aria-label="Follow-Up Care service">
+          <div class="service-icon-wrap"><i class="fa-solid fa-calendar-check" aria-hidden="true"></i></div>
+          <h3>Follow-Up Care</h3>
+          <p>Regular check-ins, adjustments, and ongoing support to ensure your hearing stays optimal.</p>
+          <div class="service-hover-line" aria-hidden="true"></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="why-section" id="why-us" aria-label="Why Choose Sravya Hearing Solutions">
+    <div class="why-bg-shapes" aria-hidden="true">
+      <div class="why-shape why-shape-1"></div>
+      <div class="why-shape why-shape-2"></div>
+      <div class="why-shape why-shape-3"></div>
+    </div>
+    <div class="why-container">
+      <div class="section-header section-header-light" data-reveal>
+        <div class="section-label section-label-light">Our Difference</div>
+        <h2 class="section-title" style="color:#fff;">Why Patients<br/><span style="color:#1DB5E7;">Choose Us</span></h2>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card" data-reveal-stagger tabindex="0">
+          <div class="why-number">01</div>
+          <h3>Multibrand Freedom</h3>
+          <p>Unlike single-brand clinics, we work with 15+ leading global manufacturers. Our recommendations are guided entirely by your hearing needs, lifestyle, and budget — never by brand quotas or sales targets.</p>
+        </div>
+        <div class="why-card" data-reveal-stagger tabindex="0">
+          <div class="why-number">02</div>
+          <h3>Certified Hearing Specialists</h3>
+          <p>Our team holds professional qualifications in audiology and hearing aid dispensing. Every assessment, fitting, and fine-tuning is performed by trained specialists who stay current with the latest hearing science.</p>
+        </div>
+        <div class="why-card" data-reveal-stagger tabindex="0">
+          <div class="why-number">03</div>
+          <h3>Try Before You Buy</h3>
+          <p>We offer real-world device trials before any purchase decision. Wear the hearing aid in your daily environment — at home, at work, in crowds — and decide only when you're fully confident.</p>
+        </div>
+        <div class="why-card" data-reveal-stagger tabindex="0">
+          <div class="why-number">04</div>
+          <h3>Precise Digital Fitting</h3>
+          <p>We use advanced software-based programming to map your hearing aid settings to your exact audiogram. The result is natural, comfortable sound from your very first wear — not a generic factory setting.</p>
+        </div>
+        <div class="why-card" data-reveal-stagger tabindex="0">
+          <div class="why-number">05</div>
+          <h3>Lifetime After-Sales Support</h3>
+          <p>From routine cleaning and battery replacement to full repairs and re-programming, we stand by every device we fit. Our after-sales care is not a package add-on — it's simply how we work.</p>
+        </div>
+        <div class="why-card" data-reveal-stagger tabindex="0">
+          <div class="why-number">06</div>
+          <h3>Discreet, Judgment-Free Care</h3>
+          <p>We understand seeking help for hearing loss can feel daunting. Our clinic is a calm, private space where every patient is met with patience, respect, and zero pressure.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PARALLAX SECTION ===== -->
+  <section class="parallax-section" aria-label="Because Every Sound Matters">
+    <div class="parallax-bg" id="parallaxBg" role="img" aria-label="Hearing care imagery"></div>
+    <div class="parallax-overlay" aria-hidden="true"></div>
+    <div class="parallax-content" data-reveal>
+      <div class="parallax-soundwave" aria-hidden="true">
+        <div class="p-bar" style="--h:40%"></div>
+        <div class="p-bar" style="--h:70%"></div>
+        <div class="p-bar" style="--h:55%"></div>
+        <div class="p-bar" style="--h:90%"></div>
+        <div class="p-bar" style="--h:65%"></div>
+        <div class="p-bar" style="--h:80%"></div>
+        <div class="p-bar" style="--h:45%"></div>
+        <div class="p-bar" style="--h:75%"></div>
+        <div class="p-bar" style="--h:60%"></div>
+        <div class="p-bar" style="--h:85%"></div>
+        <div class="p-bar" style="--h:50%"></div>
+        <div class="p-bar" style="--h:70%"></div>
+      </div>
+      <h2 class="parallax-title">Because Every Sound Matters</h2>
+      <p class="parallax-subtitle">Helping people reconnect with the sounds that shape everyday life.</p>
+      <a href="tel:+918174097409" class="btn-primary btn-magnetic" style="margin-top:2.5rem;">
+        <span>Begin Your Journey</span>
+        <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS SECTION ===== -->
+  <section class="process-section" id="process" aria-label="Our Process">
+    <div class="process-container">
+      <div class="section-header" data-reveal>
+        <div class="section-label">How It Works</div>
+        <h2 class="section-title">Our Simple<br/><span class="accent">4-Step Process</span></h2>
+        <p class="section-subtitle">From your first call to lifelong hearing wellness — we make it simple, comfortable, and completely guided.</p>
+      </div>
+
+      <div class="process-timeline">
+        <div class="timeline-line" aria-hidden="true"><div class="timeline-progress" id="timelineProgress"></div></div>
+
+        <div class="process-step" data-step="1">
+          <div class="step-connector" aria-hidden="true">
+            <div class="step-dot">
+              <span>1</span>
+            </div>
+          </div>
+          <div class="step-card" tabindex="0">
+            <div class="step-icon"><i class="fa-solid fa-calendar-plus" aria-hidden="true"></i></div>
+            <h3>Book Your Free Consultation</h3>
+            <p>Call, WhatsApp, or walk in to schedule your first appointment. No referral needed. No fees. We'll confirm a time that suits you and let you know what to expect — so you arrive feeling at ease.</p>
+            <div class="step-action">
+              <a href="https://wa.me/918174097409?text=Hello%20Sravya%20Hearing%20Solutions,%20I%20would%20like%20to%20book%20a%20hearing%20consultation." target="_blank" rel="noopener noreferrer" aria-label="Book via WhatsApp">
+                <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Book via WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="process-step process-step-right" data-step="2">
+          <div class="step-connector" aria-hidden="true">
+            <div class="step-dot">
+              <span>2</span>
+            </div>
+          </div>
+          <div class="step-card" tabindex="0">
+            <div class="step-icon"><i class="fa-solid fa-ear-listen" aria-hidden="true"></i></div>
+            <h3>Comprehensive Hearing Evaluation</h3>
+            <p>Our specialist conducts a full audiological assessment using calibrated equipment. We measure your hearing across all frequencies, identify the type and degree of any loss, and explain the results in plain language.</p>
+          </div>
+        </div>
+
+        <div class="process-step" data-step="3">
+          <div class="step-connector" aria-hidden="true">
+            <div class="step-dot">
+              <span>3</span>
+            </div>
+          </div>
+          <div class="step-card" tabindex="0">
+            <div class="step-icon"><i class="fa-solid fa-headphones" aria-hidden="true"></i></div>
+            <h3>Personalised Device Trial</h3>
+            <p>Based on your assessment, we recommend two or three hearing aids from different brands and price points. You trial each one — in the clinic and in your real daily life — with no obligation to purchase.</p>
+          </div>
+        </div>
+
+        <div class="process-step process-step-right" data-step="4">
+          <div class="step-connector" aria-hidden="true">
+            <div class="step-dot">
+              <span>4</span>
+            </div>
+          </div>
+          <div class="step-card" tabindex="0">
+            <div class="step-icon"><i class="fa-solid fa-sliders" aria-hidden="true"></i></div>
+            <h3>Fitting, Fine-Tuning & Ongoing Care</h3>
+            <p>Once you choose your device, we fit and digitally program it to your precise hearing profile. Follow-up appointments ensure the sound is exactly right as you adjust — and we remain available for support, servicing, and check-ins long after.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials-section" id="testimonials" aria-label="Patient Testimonials">
+    <div class="testimonials-container">
+      <div class="section-header" data-reveal>
+        <div class="section-label">Patient Stories</div>
+        <h2 class="section-title">What Our Patients<br/><span class="accent">Say About Us</span></h2>
+      </div>
+
+      <div class="testimonials-slider-wrap">
+        <div class="testimonials-slider" id="testimonialsSlider" role="list" aria-label="Patient testimonials">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card" role="listitem" tabindex="0">
+            <div class="t-stars" aria-label="5 stars rating">
+              <i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <blockquote class="t-text">"After years of struggling to follow conversations, I finally visited Sravya Hearing Solutions. The team was incredibly patient and professional. My new hearing aid has genuinely changed my life — I can hear my grandchildren clearly again."</blockquote>
+            <div class="t-author">
+              <div class="t-avatar"><i class="fa-solid fa-user-circle" aria-hidden="true"></i></div>
+              <div class="t-info">
+                <strong>Rajan Menon</strong>
+                <span>Thrissur, Kerala</span>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card" role="listitem" tabindex="0">
+            <div class="t-stars" aria-label="5 stars rating">
+              <i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <blockquote class="t-text">"The trial period was a game-changer. I wore three different devices over two weeks before choosing the right one. No pressure, no rush — just genuine care. The digital fitting was spot-on from day one."</blockquote>
+            <div class="t-author">
+              <div class="t-avatar"><i class="fa-solid fa-user-circle" aria-hidden="true"></i></div>
+              <div class="t-info">
+                <strong>Lakshmi Nair</strong>
+                <span>Palakkad, Kerala</span>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card" role="listitem" tabindex="0">
+            <div class="t-stars" aria-label="5 stars rating">
+              <i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <blockquote class="t-text">"I was hesitant about seeking help but the team at Sravya made me feel completely comfortable. The audiologist explained everything in simple terms and the after-sales support has been outstanding. Highly recommend to anyone experiencing hearing loss."</blockquote>
+            <div class="t-author">
+              <div class="t-avatar"><i class="fa-solid fa-user-circle" aria-hidden="true"></i></div>
+              <div class="t-info">
+                <strong>Suresh Kumar</strong>
+                <span>Irinjalakuda, Kerala</span>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial 4 -->
+          <div class="testimonial-card" role="listitem" tabindex="0">
+            <div class="t-stars" aria-label="5 stars rating">
+              <i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <blockquote class="t-text">"My mother had been avoiding getting a hearing aid for years. After one visit to Sravya Hearing Solutions, her attitude completely changed. The staff were so respectful and caring. Her new device is invisible and she loves it."</blockquote>
+            <div class="t-author">
+              <div class="t-avatar"><i class="fa-solid fa-user-circle" aria-hidden="true"></i></div>
+              <div class="t-info">
+                <strong>Priya Krishnan</strong>
+                <span>Thrissur, Kerala</span>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial 5 -->
+          <div class="testimonial-card" role="listitem" tabindex="0">
+            <div class="t-stars" aria-label="5 stars rating">
+              <i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i><i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <blockquote class="t-text">"I've been coming here for tinnitus management and the improvement has been remarkable. The specialist took time to understand my specific situation and created a care plan just for me. Best hearing clinic in Kerala without doubt."</blockquote>
+            <div class="t-author">
+              <div class="t-avatar"><i class="fa-solid fa-user-circle" aria-hidden="true"></i></div>
+              <div class="t-info">
+                <strong>Mohammed Rashid</strong>
+                <span>Chalakudy, Kerala</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-controls" aria-label="Testimonial navigation">
+          <button class="slider-btn slider-prev" id="sliderPrev" aria-label="Previous testimonial">
+            <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+          </button>
+          <div class="slider-dots" id="sliderDots" role="tablist" aria-label="Testimonial indicators"></div>
+          <button class="slider-btn slider-next" id="sliderNext" aria-label="Next testimonial">
+            <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA SECTION ===== -->
+  <section class="cta-section" aria-label="Call to Action">
+    <div class="cta-bg-shapes" aria-hidden="true">
+      <div class="cta-shape cta-shape-1"></div>
+      <div class="cta-shape cta-shape-2"></div>
+      <div class="cta-shape cta-shape-3"></div>
+    </div>
+    <div class="cta-container" data-reveal>
+      <div class="cta-eyebrow">Ready to Hear Better?</div>
+      <h2 class="cta-title">Start Your Journey To<br/>Better Hearing Today</h2>
+      <p class="cta-text">Book your consultation and discover personalized hearing solutions designed around your lifestyle.</p>
+      <div class="cta-actions">
+        <a href="https://wa.me/918174097409" target="_blank" rel="noopener noreferrer" class="btn-primary btn-magnetic btn-light" aria-label="Book Consultation">
+          <span>Book Consultation</span>
+          <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+        </a>
+        <a href="tel:+918174097409" class="btn-outline btn-outline-light btn-magnetic" aria-label="Call Now">
+          <i class="fa-solid fa-phone" aria-hidden="true"></i>
+          <span>Call Now</span>
+        </a>
+      </div>
+      <div class="cta-trust-row">
+        <span><i class="fa-solid fa-shield-check" aria-hidden="true"></i> Free First Visit</span>
+        <span><i class="fa-solid fa-clock" aria-hidden="true"></i> Same-Day Appointments</span>
+        <span><i class="fa-solid fa-star" aria-hidden="true"></i> 5-Star Rated Clinic</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact-section" id="contact" aria-label="Contact and Location">
+    <div class="contact-container">
+      <div class="section-header" data-reveal>
+        <div class="section-label">Find Us</div>
+        <h2 class="section-title">Visit Our<br/><span class="accent">Clinic</span></h2>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Map -->
+        <div class="contact-map-wrap" data-reveal-left>
+          <div class="contact-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.325465604816!2d76.1173585!3d10.395704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7f49baad65061%3A0x21d0000050dc3a9f!2sSravya%20clinic!5e0!3m2!1sen!2sin!4v1780912560415!5m2!1sen!2sin"
+              width="100%"
+              height="400"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Sravya Hearing Solutions location map"
+              aria-label="Google Maps showing Sravya Hearing Solutions location in Thrissur, Kerala"
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info-wrap" data-reveal-right>
+          <div class="contact-brand">
+            <img src="logo.png" alt="Sravya Hearing Solutions" class="contact-logo" loading="lazy" />
+          </div>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></div>
+              <div>
+                <strong>Address</strong>
+                <address>
+                  Thankulam Kottaram Road<br/>
+                  Near Thankulam Temple<br/>
+                  P.O. Pooppathy<br/>
+                  Thrissur District, Kerala 680733
+                </address>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></div>
+              <div>
+                <strong>Phone</strong>
+                <a href="tel:+918174097409">+91 81740 97409</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-envelope" aria-hidden="true"></i></div>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:sales@sravyahearing.com">sales@sravyahearing.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-clock" aria-hidden="true"></i></div>
+              <div>
+                <strong>Hours</strong>
+                <span>Monday – Saturday: 9:00 AM – 6:00 PM</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-cta-btns">
+            <a href="tel:+918174097409" class="btn-primary btn-magnetic" aria-label="Call Us Now">
+              <i class="fa-solid fa-phone" aria-hidden="true"></i>
+              <span>Call Now</span>
+            </a>
+            <a href="https://wa.me/918174097409?text=Hello%20Sravya%20Hearing%20Solutions,%20I%20would%20like%20to%20book%20a%20hearing%20consultation." target="_blank" rel="noopener noreferrer" class="btn-whatsapp btn-magnetic" aria-label="Chat on WhatsApp">
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+              <span>WhatsApp Us</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" aria-label="Footer">
+    <div class="footer-bg-shapes" aria-hidden="true">
+      <div class="footer-shape footer-shape-1"></div>
+      <div class="footer-shape footer-shape-2"></div>
+    </div>
+    <div class="footer-top">
+      <div class="footer-container">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <span class="footer-logo-span"><img src="logo.png" alt="Sravya Hearing Solutions" class="footer-logo" loading="lazy" /></span>
+          <p class="footer-desc">Professional hearing assessments, advanced hearing aids, personalized fittings, and lifelong support — helping you reconnect with every sound that matters.</p>
+          <div class="footer-tagline"><em>"Because Every Sound Matters"</em></div>
+          <div class="footer-socials">
+            <a href="https://wa.me/918174097409" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+            <a href="mailto:sales@sravyahearing.com" class="social-link" aria-label="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+            <a href="tel:+918174097409" class="social-link" aria-label="Phone"><i class="fa-solid fa-phone" aria-hidden="true"></i></a>
+            <a href="https://sravyahearing.com" class="social-link" aria-label="Website"><i class="fa-solid fa-globe" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul role="list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#why-us">Why Choose Us</a></li>
+            <li><a href="#process">Our Process</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services -->
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <ul role="list">
+            <li><a href="#services">Hearing Evaluation</a></li>
+            <li><a href="#services">Hearing Aid Trial</a></li>
+            <li><a href="#services">Digital Fitting</a></li>
+            <li><a href="#services">Aid Programming</a></li>
+            <li><a href="#services">Repairs &amp; Servicing</a></li>
+            <li><a href="#services">Tinnitus Management</a></li>
+            <li><a href="#services">Hearing Screening</a></li>
+            <li><a href="#services">Follow-Up Care</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul class="footer-contact-list" role="list">
+            <li>
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              <address>Thankulam Kottaram Road, Near Thankulam Temple, P.O. Pooppathy, Thrissur, Kerala 680733</address>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone" aria-hidden="true"></i>
+              <a href="tel:+918174097409">+91 81740 97409</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              <a href="mailto:sales@sravyahearing.com">sales@sravyahearing.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-container">
+        <p>&copy; <span id="footerYear">2025</span> Sravya Hearing Solutions. All rights reserved.</p>
+        <p>Hearing Aid Clinic in Thrissur, Kerala | <a href="mailto:sales@sravyahearing.com">sales@sravyahearing.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== WHATSAPP FLOATING BUTTON ===== -->
+  <a
+    href="https://wa.me/918174097409?text=Hello%20Sravya%20Hearing%20Solutions,%20I%20would%20like%20to%20book%20a%20hearing%20consultation."
+    class="whatsapp-float"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat with us on WhatsApp"
+    id="whatsappFloat"
+  >
+    <div class="wa-pulse" aria-hidden="true"></div>
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+    <span class="wa-tooltip">Chat With Us</span>
+  </a>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
+  </button>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
