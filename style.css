@@ -373,6 +373,15 @@ address { font-style: normal; }
   align-items: center;
   overflow: hidden;
 }
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('hero-section.png') no-repeat center center / cover;
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: 1;
+}
 
 #heroCanvas {
   position: absolute;
@@ -380,6 +389,7 @@ address { font-style: normal; }
   width: 100%; height: 100%;
   opacity: 0.35;
   pointer-events: none;
+  z-index: 2;
 }
 
 .hero-bg-rings {
@@ -387,6 +397,7 @@ address { font-style: normal; }
   inset: 0;
   pointer-events: none;
   overflow: hidden;
+  z-index: 2;
 }
 .ring {
   position: absolute;
@@ -408,7 +419,7 @@ address { font-style: normal; }
   align-items: center;
   padding: 8rem 0 5rem;
   position: relative;
-  z-index: 2;
+  z-index: 3;
 }
 
 /* Hero Content */
