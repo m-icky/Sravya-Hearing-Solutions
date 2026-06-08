@@ -1547,3 +1547,8 @@ address { font-style: normal; }
   .float-card-2 { top: 100px; right: -20px; }
   .float-card-3 { bottom: 60px; left: -20px; }
 }
+
+.footer-hr {
+  opacity: .5;
+  margin: 10px;
+}
