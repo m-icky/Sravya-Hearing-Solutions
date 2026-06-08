@@ -441,7 +441,7 @@ address { font-style: normal; }
 .hero-title {
   font-family: 'DXLactosFree', 'DM Sans', sans-serif;
   font-weight: 800;
-  font-size: clamp(2.5rem, 5.5vw, 5.5rem);
+  font-size: clamp(4.5rem, 5.5vw, 5.5rem);
   line-height: 1.05;
   letter-spacing: -0.03em;
   color: var(--white);
@@ -743,7 +743,7 @@ address { font-style: normal; }
 
 .about-img-badge {
   position: absolute;
-  bottom: 15px;
+  top: 15px;
   right: 15px;
   display: flex;
   align-items: center;
@@ -943,7 +943,7 @@ address { font-style: normal; }
 .parallax-bg {
   position: absolute;
   inset: -20%;
-  background-image: url('https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=1600&auto=format&fit=crop&q=80');
+  background-image: url('parallax-section.png');
   background-size: cover;
   background-position: center;
   will-change: transform;
@@ -1498,7 +1498,7 @@ address { font-style: normal; }
   .stats-container { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
   .services-grid { grid-template-columns: 1fr; }
   .why-grid { grid-template-columns: 1fr; }
-  .hero-title { font-size: clamp(2rem, 8vw, 2.8rem); }
+  /* .hero-title { font-size: clamp(2rem, 8vw, 2.8rem); } */
   .testimonial-card { width: 100%; min-width: 100%; max-width: 100%; }
   .footer-container { grid-template-columns: 1fr; }
   .footer-col ul:not(.footer-contact-list) {
